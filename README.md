@@ -22,6 +22,10 @@
 * Containerizing a Software Application with Docker
 * Monitoring Containerized Application Health with Docker
 
+## Udemy
+* Docker for Java Developers - with Spring Boot Microservices
+* Docker - Hands On for Java Developers
+
 ## Others
 * [Docker Tutorials for Beginners](https://www.youtube.com/watch?v=RppfZGuLsmA)
 * [https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/](https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/)
