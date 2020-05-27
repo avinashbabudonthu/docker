@@ -29,6 +29,7 @@
 
 ## Others
 * [Docker Tutorials for Beginners](https://www.youtube.com/watch?v=RppfZGuLsmA)
-* [https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/](https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/)
-* [https://stefanscherer.github.io/how-to-install-docker-the-chocolatey-way/](https://stefanscherer.github.io/how-to-install-docker-the-chocolatey-way/)
-* [https://dev.to/kojikanao/15-docker-commands-for-beginners-4m4d](https://dev.to/kojikanao/15-docker-commands-for-beginners-4m4d)
+* https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/
+* https://stefanscherer.github.io/how-to-install-docker-the-chocolatey-way/
+* https://dev.to/kojikanao/15-docker-commands-for-beginners-4m4d
+* https://docs.docker.com/get-started/overview/
