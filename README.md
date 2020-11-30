@@ -27,8 +27,10 @@
 * Docker for Java Developers - with Spring Boot Microservices
 * Docker - Hands On for Java Developers
 
-## Others
+## Youtube
 * [Docker Tutorials for Beginners](https://www.youtube.com/watch?v=RppfZGuLsmA)
+
+## Others
 * https://stefanscherer.github.io/get-started-with-docker-on-windows-using-chocolatey/
 * https://stefanscherer.github.io/how-to-install-docker-the-chocolatey-way/
 * https://dev.to/kojikanao/15-docker-commands-for-beginners-4m4d
