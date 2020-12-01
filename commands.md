@@ -1,7 +1,8 @@
 # Docker Commands
 * Check docker version
 ```
-docker --version (or) docker -v
+docker -v
+docker --version
 ```
 * Information of docker container environment
 ```
