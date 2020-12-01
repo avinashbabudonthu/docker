@@ -8,6 +8,10 @@ docker --version
 ```
 docker-machine env
 ```
+* To see docker images
+```
+docker images
+```
 * To see all docker containers both started and stopped
 ```
 docker ps
@@ -16,10 +20,7 @@ docker container ls
 docker container ls -a
 docker container ls --all
 ```
-* To see docker images
-```
-docker images
-```
+
 * Start the container by running image
 	* `-it` - Interactive terminal
 	* `-p 9080:8080` - Does port mapping. 9080 == port number on the host system where container is running. 8080 == port number of application running in the container. We are mapping 8080 port of container to 9080 port on our system, so we can hit url with 9080
