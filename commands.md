@@ -7,13 +7,13 @@ docker --version (or) docker -v
 ```
 docker-machine env
 ```
-* To see all running docker containers, See docker processes
+* To see all docker containers both started and stopped
 ```
 docker ps
-or
 docker ps --all
-or
 docker container ls
+docker container ls -a
+docker container ls --all
 ```
 * To see docker images
 ```
@@ -57,13 +57,6 @@ Ex: docker pull ubuntu
 * Run the container as daemon. Means run the container in the background
 ```
 -d
-```
-* To see all docker containers both started and stopped
-```
-docker ps -a
-docker ps --all
-docker container ls --all
-docker container ls -a
 ```
 * Logging into and accessing the container
 ```
