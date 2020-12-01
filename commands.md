@@ -4,6 +4,14 @@
 docker -v
 docker --version
 ```
+* Installed Docker information
+```
+docker info
+```
+* Docker installation path
+```
+where docker
+```
 * Information of docker container environment
 ```
 docker-machine env
@@ -38,14 +46,6 @@ docker stop [container-id]
 * Start docker container
 ```
 docker start [container-id]
-```
-* Installed Docker information
-```
-docker info
-```
-* Docker installation path
-```
-where docker
 ```
 * Run nginx using docker
 ```
