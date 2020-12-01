@@ -5,7 +5,11 @@ docker-machine env
 ```
 * To see all running docker containers, See docker processes
 ```
-docker ps (or) docker container ls
+docker ps
+or
+docker ps --all
+or
+docker container ls
 ```
 * To see docker images
 ```
