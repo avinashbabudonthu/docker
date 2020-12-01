@@ -23,7 +23,7 @@ docker images
 	* `-it` - Interactive terminal
 	* `-p 9080:8080` - Does port mapping. 9080 == port number on the host system where container is running. 8080 == port number of application running in the container. We are mapping 8080 port of container to 9080 port on our system, so we can hit url with 9080
 ```
-docker run -it -p 80:8080 image-name
+docker run -it -p 9080:8080 image-name
 ```
 * Give name to docker container while starting the container
 ```
