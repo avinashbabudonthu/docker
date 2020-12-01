@@ -1,4 +1,8 @@
 # Docker Commands
+* Check docker version
+```
+docker --version (or) docker -v
+```
 * Information of docker container environment
 ```
 docker-machine env
@@ -32,10 +36,6 @@ docker stop [container-id]
 * Start docker container
 ```
 docker start [container-id]
-```
-* Check docker version
-```
-docker --version (or) docker -v
 ```
 * Installed Docker information
 ```
