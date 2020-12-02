@@ -31,11 +31,19 @@ docker container ls --all
 
 * Start the container by running image
 	* `-it` - Interactive terminal
+		* If we give this option, when we press Ctrl+C container will stop without running docker stop again
 	* `-p 9080:8080` - Does port mapping. 9080 == port number on the host system where container is running. 8080 == port number of application running in the container. We are mapping 8080 port of container to 9080 port on our system, so we can hit url with 9080
 ```
 docker run -it -p 9080:8080 image-name
 ```
+* Build docker image using Dockerfile. Run from directory where Dockerfile is present
+```
+docker build . -t [image-name]
+```
 * Give name to docker container while starting the container
+	* `--name` : to give a name to container
+	* `-p` : to map host system port to application port in container
+	* `-d` : run the container in the background as deamon
 ```
 docker run -d --name applicationName -p 8080:8000 imageName
 ```
@@ -75,10 +83,14 @@ docker kill [container-id]
 * To remove a stopped container from system
 ```
 docker rm [container-id]
+docker rm containerId1 containerId2
 ```
 * To remove image from system
 ```
+docker rmi repositotyName
+docker rmi repositotyName1 repositotyName2
 docker rmi [image-name]
+docker rmi ImageId1 imageId2
 ```
 * To remove a running container from system
 ```
@@ -99,10 +111,6 @@ docker login
 * Push local docker image to docker hub
 ```
 docker push [image-name]
-```
-* Build docker image using Dockerfile. Run from directory where Dockerfile is present
-```
-docker build . -t [image-name]
 ```
 * Bind mount C:/docker/dockerfile from local system to /app folder in container
 ```
@@ -131,6 +139,14 @@ sudo usermod -aG docker $USER. Re login to session after running this command
 * Check logs of container
 ```
 docker logs [container name]
+```
+* search docker hub from command line
+```
+docker help search
+```
+* search for docs
+```
+docker search docs
 ```
 
 # Docker Compose
