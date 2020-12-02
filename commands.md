@@ -16,6 +16,10 @@ where docker
 ```
 docker-machine env
 ```
+* get information above the container like ip address etc
+```
+docker inspect containerId
+```
 * To see docker images
 ```
 docker images
@@ -148,6 +152,11 @@ docker help search
 ```
 docker search docs
 ```
+* create container from image
+```
+docker create
+```
+
 
 # Docker Compose
 * Docker compose version
