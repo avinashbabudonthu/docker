@@ -33,7 +33,7 @@ docker build . -t [image-name]
 	* docker volume
 		* docker engine will automatically identifies where this volume has to exist. We don't need to specify the paths
 * Whenever we want to push our image to docker hub account. Then docker image name should be
-	* username/user-defined-our-image-name
+	* username/user-defined-image-name
 * Start the container by running image
 	* `-it` - Interactive terminal
 	* `-p 9080:8080` - Does port mapping. 9080 == port number on the host system where container is running. 8080 == port number of application running in the container. We are mapping 8080 port of container to 9080 port on our system, so we can hit url with 9080
